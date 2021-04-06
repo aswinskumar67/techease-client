@@ -1,0 +1,48 @@
+.application-wrapper{
+    display:grid;
+    grid-template-columns:auto 9fr;
+}
+.application-main .header{
+    display:flex;
+    justify-content:space-between;
+    background-image: linear-gradient(to right,#9f78ff,#32cafe);
+    height: 30vh;
+    color: white;
+    padding-left:3em;
+    padding-right:3em;
+    padding-top:1em;
+}
+.application-main .header h2{
+    font-size:2em;
+    font-weight: 500;
+    width: 100%;
+}
+.application-main .header p{
+    font-size:1.2em;
+}
+
+.header-button img{
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.header-button img:hover{
+    transform:scale(1.05)
+}
+
+.application-main .content {
+    position: relative;
+    top:-3em;
+    display:flex;
+    height: 50vh;
+    align-items:flex-start;
+    gap:5em;
+    padding-left:3em;
+}
+
+.application-main .content .method-wrapper {
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    column-gap:2em;
+    row-gap: 2em;
+}

@@ -1,0 +1,16 @@
+.method-container{
+    display:flex;
+    width: 30em;
+    height: 7em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    border-radius:10px;
+    align-items:center;
+    padding-left:10px;
+    transition: 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
+    
+}
+.method-container:hover{
+    transform: scale(1.05);
+}

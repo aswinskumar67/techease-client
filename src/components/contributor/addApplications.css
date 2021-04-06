@@ -1,0 +1,27 @@
+.icon-name-container{
+    display:flex;
+    flex-direction: column;
+}
+.app-name-textbox{
+    width:20vw;
+}
+.method-name-textbox{
+    width:20vw; 
+}
+.icon-container{
+    height:20vh;
+    width:20vw;
+    border:1px solid #ccc;
+}
+.button1{
+    width :10vw
+}
+.imgPreview img{
+    height:20vh;
+    width:auto;
+}
+.addApplication-container{
+    display:flex;
+    flex-direction:column;
+    gap:2vh;
+}

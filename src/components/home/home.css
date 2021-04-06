@@ -1,0 +1,47 @@
+.home-page-wrapper{
+    display:grid;
+    grid-template-rows:15% 85%;
+    height:100vh;
+    width:100vw;
+}
+
+.home-header{
+    display: flex;
+    justify-content:space-between;
+    width:100%;
+    background-color:#343434;
+    height: 15vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-top: 2vh;
+}
+
+.home-header .nav-button button{
+    outline:none;
+    border:none;
+    padding:10px;
+    width: 8em;
+    background-color:white;
+    font-weight:600;
+    cursor: pointer;
+    transition:cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.home-header .nav-button button:hover{
+    transform:scale(1.05)
+}
+
+.home-header .description{
+    color:white;
+}
+
+.home-body{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, 17em);
+    column-gap:5em;
+    row-gap:2em;
+    justify-content: center;
+    align-items: center;
+    padding-top:4vh;
+    padding-left: 3vw;
+    padding-right:3vw;
+}

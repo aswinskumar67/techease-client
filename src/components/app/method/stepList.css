@@ -1,0 +1,44 @@
+.steplist-container{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    height: 70vh;
+    overflow-y:scroll;
+    padding-right: 10px;
+}
+.steplist-container::-webkit-scrollbar {
+    width: 10px;
+  }
+   
+  .steplist-container::-webkit-scrollbar-thumb {
+    background: rgb(77, 103, 250);
+    border-radius:5px;
+  }
+  
+  .steplist-container::-webkit-scrollbar-track {
+    background: rgb(235, 252, 255);
+  }
+  
+
+.steplist-item{
+    display:flex;
+    width:22em;
+    height: 4em;
+    box-shadow: 0px 4px 4px rgba(160, 160, 160, 0.25);
+    background-color:white;
+    border-radius:5px;
+    align-items: center;
+    padding-left: 1em;
+    color:#4b4b4b;
+    cursor: pointer;
+}
+
+.steplist-item h3{
+    font-weight: 500;
+    
+}
+
+.active{
+    background-color:rgb(52, 116, 255);
+    color:#fff;
+}

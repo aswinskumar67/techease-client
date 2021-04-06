@@ -1,0 +1,5 @@
+.logged-in-admin-wrapper{
+    display:grid;
+    grid-template-columns: 30% 70%;
+    
+}
